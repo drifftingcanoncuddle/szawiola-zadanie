@@ -1,8 +1,9 @@
-from Maintain.ArgParser import ArgParser
+from Maintain.MainLoop import MainLoop
 import sys
 
+
 def main(argv):
-    ArgParser(argv)
+    MainLoop(argv).run()
 
 
 if __name__ == "__main__":
