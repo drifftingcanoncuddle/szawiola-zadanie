@@ -1,13 +1,10 @@
 class SimFrame:
-    def __init__(self):
-        pass
+    def __init__(self, particles):
+        self.particles = particles
 
-    def getPositions(self):
-        pass
+    def get_particle(self, number):
+        return self.particles[number]
 
-    def getVelocities(self):
-        pass
-
-    def getXYPositions(self):
-        pass
+    def get_particles(self):
+        return self.particles
 

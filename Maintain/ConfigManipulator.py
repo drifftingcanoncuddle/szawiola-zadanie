@@ -1,4 +1,16 @@
 import configparser
+from enum import Enum
+
+
+class ConfigFields(Enum):
+    sizeX = "sizeX"
+    sizeY = "sizeY"
+    maxSpeed = "maxSpeed"
+    particleAmount = "particleAmount"
+    boxSize = "boxSize"
+    time = "time"
+    timeDelta = "timeDelta"
+    init_state_file = "init_state_file"
 
 
 class ConfigManipulator:
@@ -23,8 +35,8 @@ class ConfigManipulator:
         else:
             return parser
 
-    def read(self, name:str) -> str:
-        name = name.lower()
+    def read(self, name: ConfigFields) -> str:
+        name = name.value.lower()
         return self.parser["DEFAULT"][name]
 
     def recreate(self):
@@ -54,3 +66,5 @@ class ConfigManipulator:
     def set(self, name:str, value):
         self.parser["DEFAULT"][name] = str(value)
         self.save_parser_to_file(self.parser)
+
+

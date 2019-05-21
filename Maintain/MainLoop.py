@@ -4,7 +4,7 @@ from Arithmetic.Entropy import Entropy
 from Arithmetic.EntropyPrinter import EntropyPrinter
 from Arithmetic.THProb import THProb
 from Maintain.ConfigManipulator import ConfigManipulator
-
+from Maintain.Draw import Draw
 
 class MainLoop:
     def __init__(self, argv):
@@ -46,6 +46,9 @@ class MainLoop:
         if self.arguments.chart_location is not None:
             EntropyPrinter(self.arguments.chart_location)\
                 .evaluate()
+
+        if self.arguments.animation_file is not None:
+            Draw(self.arguments.animation_file).draw()
 
     def show(self, data):
         print(data)

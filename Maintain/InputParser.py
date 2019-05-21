@@ -62,6 +62,13 @@ class InputParser:
                                  metavar="time",
                                  help="Set period time of simulation in seconds")
 
+        parser.add_argument("-a",
+                            "--animation",
+                            metavar="file",
+                            dest="animation_file",
+                            help="Make additional animation of simulation, must end with .mp4",
+                            )
+
         return parser
 
     def get_arguments(self) -> argparse.Namespace:
