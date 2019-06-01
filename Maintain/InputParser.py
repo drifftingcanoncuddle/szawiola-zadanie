@@ -54,7 +54,7 @@ class InputParser:
                                  dest="output_file",
                                  metavar="file",
                                  default="",
-                                 help="Save result to file")
+                                 help="Save result displayed on console to file")
 
         parser.add_argument("-T",
                                  "--Time",

@@ -18,6 +18,8 @@ class Draw:
         self.particles_amount = int(self.config.read(ConfigFields.particleAmount))
         self.anim = None
         self.figure, self.axes = mpl.subplots()
+        self.particle_size = int(self.config.read(ConfigFields.particleSize)) * 265 / int(self.config.read(ConfigFields.size))
+        self.dpi = 500
 
     def init_drawing(self):
         x = list()
@@ -28,11 +30,12 @@ class Draw:
 
         colors = 0.02 * (np.random.random(self.particles_amount)) - 0.5
 
-        self.scat = self.axes.scatter(x, y, s=10, c=colors)
+
+        self.scat = self.axes.scatter(x, y, s=self.particle_size ** 2, c=colors)
         self.axes.axis([0,
-                        int(self.config.read(ConfigFields.sizeX)),
+                        int(self.config.read(ConfigFields.size)),
                         0,
-                        int(self.config.read(ConfigFields.sizeY))])
+                        int(self.config.read(ConfigFields.size))])
         return self.scat,
 
     def update(self, step):
@@ -62,6 +65,6 @@ class Draw:
                                             init_func=self.init_drawing,
                                             blit=True
                                             )
-        self.anim.save(self.path, fps=60, extra_args=['-vcodec', 'libx264'])
+        self.anim.save(self.path, dpi=self.dpi, fps=60, extra_args=['-vcodec', 'libx264'])
 
 

@@ -1,5 +1,9 @@
+from typing import *
+from simulation.Particle import Particle
+
+
 class SimFrame:
-    def __init__(self, particles):
+    def __init__(self, particles: List[Particle]):
         self.particles = particles
 
     def get_particle(self, number):
