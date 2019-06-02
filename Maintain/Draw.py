@@ -62,9 +62,10 @@ class Draw:
         self.anim = animation.FuncAnimation(self.figure,
                                             self.update,
                                             interval=int(self.config.read(ConfigFields.time)),
+                                            frames=int(self.config.read(ConfigFields.time)),
                                             init_func=self.init_drawing,
                                             blit=True
                                             )
-        self.anim.save(self.path, dpi=self.dpi, fps=60, extra_args=['-vcodec', 'libx264'])
+        self.anim.save(self.path, dpi=self.dpi, fps=1/float(self.config.read(ConfigFields.timeDelta)), extra_args=['-vcodec', 'libx264'])
 
 

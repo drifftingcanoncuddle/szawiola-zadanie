@@ -13,11 +13,11 @@ import math
 class Initiator:
     def __init__(self):
         self.config_manipulator = ConfigManipulator()
-        self.max_speed = int(self.config_manipulator.read(ConfigFields.maxSpeed))
-        self.size = (int(self.config_manipulator.read(ConfigFields.size)),
-                     int(self.config_manipulator.read(ConfigFields.size)))
-        self.box_size = int(self.config_manipulator.read(ConfigFields.boxSize))
-        self.max_particles_count = int(self.config_manipulator.read(ConfigFields.particleAmount))
+        self.max_speed = float(self.config_manipulator.read(ConfigFields.maxSpeed))
+        self.size = (float(self.config_manipulator.read(ConfigFields.size)),
+                     float(self.config_manipulator.read(ConfigFields.size)))
+        self.box_size = float(self.config_manipulator.read(ConfigFields.boxSize))
+        self.max_particles_count = float(self.config_manipulator.read(ConfigFields.particleAmount))
 
     def create(self) -> SimFrame:
         init_satate_file = self.config_manipulator.read(ConfigFields.init_state_file)
@@ -39,6 +39,9 @@ class Initiator:
 
             particles.append(new_particle)
             count_of_created_particles += 1
+
+        for particle in particles:
+            print(particle)
 
         return SimFrame(particles)
 
@@ -75,22 +78,15 @@ class Initiator:
                 return SimFrame(particles)
 
     def dice_speed(self) -> (float, float):
-        speed_x = random.randrange(0,
-                                   self.max_speed)
+        speed_x = random.random() * self.max_speed
         speed_y = math.sqrt(self.max_speed ** 2 - speed_x ** 2)
 
         return speed_x, speed_y
 
     def dice_position(self):
-        particle_x_pos_boundary = (0,
-                                   self.box_size)
-        particle_y_pos_boundary = (0,
-                                   self.size[1])
 
-        x = random.randrange(particle_x_pos_boundary[0],
-                             particle_x_pos_boundary[1])
+        x = random.random() * self.box_size
 
-        y = random.randrange(particle_y_pos_boundary[0],
-                             particle_y_pos_boundary[1])
+        y = random.random() * self.size[1]
 
-        return x,y
+        return x, y

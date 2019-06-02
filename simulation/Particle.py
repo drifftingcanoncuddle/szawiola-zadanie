@@ -25,3 +25,9 @@ class Particle:
     def get_combined_speed(self) -> float:
         squared_combined_speed = self.vX ** 2 + self.vY ** 2
         return math.sqrt(squared_combined_speed)
+
+    def __str__(self):
+        return "Position: {}. {}; Velocity {} , {}".format(self.x,
+                                                        self.y,
+                                                        self.vX,
+                                                        self.vY)
