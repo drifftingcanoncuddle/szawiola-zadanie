@@ -1,4 +1,4 @@
-#!/home/piotr/Documents/python/szawiola-zadanie/env/bin/python
+#!/home/piotr/Documents/python/fizyka-szawiola/env/bin/python
 
 import sys
 import getopt
