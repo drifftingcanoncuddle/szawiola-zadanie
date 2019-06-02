@@ -3,4 +3,4 @@ class Microstates:
         pass
 
     def evaluate(self):
-        pass
+        return "saf"

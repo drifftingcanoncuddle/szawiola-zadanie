@@ -60,7 +60,7 @@ class InputParser:
                                  "--Time",
                                  dest="sim_time",
                                  metavar="time",
-                                 help="Set period time of simulation in seconds")
+                                 help="Amount of frames to render")
 
         parser.add_argument("-a",
                             "--animation",
