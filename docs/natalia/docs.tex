@@ -28,47 +28,72 @@
 		Particle::get_position() -> (float, float)
 		
 		Particle::get_velocity() -> (float, float)
+		
+		ConfigMainpulator().read(arg:ConfigFields) -> str
 	\end{lstlisting}
 \pagebreak
 
 \section{Użycie}
-	\subsection{Initiator}
-		Wywołuje się go jak powyżej, zwraca początkowy stan świata jako obiekt typy SimFrame
-		
-	\subsection{Simulator}
-		Wywołuje się go jak wyżej, funkcja simulate przyjumuje jeden stan świata i przekształca go w drugi, jako rezultat upływu czasu
-		
+
 	\subsection{SimFrame}
-		Na obeikcie typu SimFrame można użyć metody get particles, która zwróci tablicę obiektów typy Particle, które będą odpowiadać wszystkom cząsteczkom i ich stanom w danym momencie czasu opisywanym przez SimFrame
+		Na obiekcie typu SimFrame można użyć metody get.particles, która zwróci tablicę obiektów typu Particle, które będą odpowiadać wszystkim cząsteczkom i ich stanom w danym momencie czasu opisywanym przez SimFrame
 		
 	\subsection{Particle}
-		\subsubsection{get position}
+		\subsubsection{get.position}
 			Tą metode można wywołać na obiekcie typu Particle i zwróci pozycję cząsteczki jako dwójkę, gdzie pierwszy element to koordynat x a drugi y
-		\subsubsection{get velocity}
+		\subsubsection{get.velocity}
 			Tą metode można wywołać na obiekcie typu Particle i zwróci prędkość cząsteczki jako dwójkę, gdzie pierwszy element to składowa x a druga y
-
+	
+	\subsection{ConfigManipulator}
+		Służy do czytania z configu, posiada jedna publczną metodę - read. Przyjmuje ona jedno z mozliwości:
+		\begin{lstlisting}[language=Python, gobble = 20]
+			size # wielkosc boku pudelka w ktorym jest animacja
+			maxSpeed # maksymalna wypadkowa predkosc czasteczki 
+			particleAmount # ilosc czasteczek
+			boxSize # wielkosc pojedynczej komorki - do liczenia mikrostanow, entropii itd.
+			time # calkowita ilosc kalatek do wyrenderowania
+			timeDelta # dyskretny krok czasu
+			init_state_file # plik  z ustawieniami poczatkowymi
+			particleSize # wielkosc czasteczki
+			maximalDistanceAsCollision # do ustawien silnika
+			maximalTimeDeltaAsColliding # jw
+		\end{lstlisting}
+		Używa się tego tak:
+		\begin{lstlisting}[gobble = 20]
+			ConfigManipulator().read(ConfigFields.cos_z_powyzszych)
+		\end{lstlisting}
+		
+	\subsection{Plik simulation.sim}
+		Jest to zapicklowana tablica z kolejnymi SimFrame'ami, jest ich tam tyle na ile został ustawiony time w pliku $config.ini$. Aby ją odpicklować można użyć metody $pickle.load(nazwa pliku)$
 \pagebreak
 
 \section{Testowanie}
-	\subsection{Makrostany}
-		\begin{lstlisting}
-			python3 main.py -m
+	\subsection{Uruchamianie}
+		\begin{lstlisting}[language=bash, gobble=20]
+			python3 -s # tworzy plik simulation.sim
+			python3 -r # odtwarza plik konfiguracyjny
+			python3 -f # wczytuje poczatkowe polozenie czasteczek z pliku
+			python3 -p # tworzy wykres do zadania 1
+			python3 -v # zadanie 2
+			python3 -t # tworzy wykres do prawdopodobienstwa termodynamicznego
+			python3 -e # tworzy wykres z entropia
+			python3 -h # ogolny help w bashu
+			
 		\end{lstlisting}
-	\subsection{Prawdopodobieństwo termodynamiczne}
-		\begin{lstlisting}
-			python3 main.py -t
-		\end{lstlisting}
-	\subsection{Entropia}
-		\begin{lstlisting}
-			python3 main.py -e
-		\end{lstlisting}
-	\subsection{Entropia z wykresem}
-		\begin{lstlisting}
-			python3 main.py -c nazwa_pliku_do_zapisu
-		\end{lstlisting}
-	\subsection{Ogólny help}
-		\begin{lstlisting}
-			python3 main.py -h
-		\end{lstlisting}
+	\subsection{config.ini}
+		Można sobie w nim wszystko pozmieniać, a jak coś pójdzie nie tak to można użyć flagi r i wszystko się przywróci do stanu początkowego
+		
+\section{TODO}
+	Wszystkie klasy po wywołaniu funkcji evaluate() muszą zczytać z pliku simulate.sim dane i stworzyć animacje
 	
+	\paragraph{DrawVelocity} Tworzy animację położenia cząsteczek w przestrzeni VxVy, gdzies na wykresie powinna być informacja jaki numer klatki się aktualnie wyświetla i zapisuje ją do pliku .mp4
+	\paragraph{DrawTHPrb} Tworzy wykres zmian prawdopodobienstwa i zapisuje go do pliku
+	\paragraph{DrawEntropy} Tworzy wykres zmian entropii i zapisuje go do pliku
+	
+\section{Przyblizony sposób używania}
+	\begin{enumerate}
+		\item Uzytkownik tworzy symulacje flagą -s
+		\item Uruchamia do woli różne inne dostępne flagi
+		\item Tworzy inna symulację flagą -s
+	\end{enumerate}	
 \end{document}

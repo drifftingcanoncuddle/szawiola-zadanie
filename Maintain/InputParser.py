@@ -13,7 +13,7 @@ class InputParser:
                       "It's main task is to evaluate entropy and create proper animation" \
                       "for it."
 
-        epilog = "Project was created by: Piotr Tylczynski, Natalia Czyzewska, Filip Kozlowski"
+        epilog = "Project created by: Piotr Tylczynski, Natalia Czyzewska, Filip Kozlowski"
 
         parser = argparse.ArgumentParser(description=description, epilog=epilog)
         parser.add_argument("-f",
@@ -23,50 +23,36 @@ class InputParser:
                                  default="",
                                  help="File containing set of initial values for simulation")
 
-        parser.add_argument("-m",
-                                 "--microstates",
-                                 help="Evaluate microstates",
+        parser.add_argument("-v",
+                                 "--velocity",
+                                 help="Show animation of changes in particles velocity",
                                  action="store_true")
 
         parser.add_argument("-t",
                                  "--thprob",
-                                 help="Evaluate thermal probability",
+                                 help="Create animaiton showing changes in thermal probability",
                                  action="store_true")
 
         parser.add_argument("-e",
                                  "--entropy",
-                                 help="Evaluate entropy",
+                                 help="Create animation showing changes in entropy",
                                  action="store_true")
-
-        parser.add_argument("-c ",
-                                 "--chart",
-                                 metavar="file",
-                                 dest="chart_location",
-                                 help="Create chart with entropy and save it to file")
 
         parser.add_argument("-r",
                                  "--recreate",
                                  help="Recreate default config",
                                  action="store_true")
 
+        parser.add_argument("-p",
+                                "--positions",
+                                help="Create animation showing particle movement in time",
+                                action="store_true"
+                            )
+
         parser.add_argument("-s",
-                                 "--save",
-                                 dest="output_file",
-                                 metavar="file",
-                                 default="",
-                                 help="Save result displayed on console to file")
-
-        parser.add_argument("-T",
-                                 "--Time",
-                                 dest="sim_time",
-                                 metavar="time",
-                                 help="Amount of frames to render")
-
-        parser.add_argument("-a",
-                            "--animation",
-                            metavar="file",
-                            dest="animation_file",
-                            help="Make additional animation of simulation, must end with .mp4",
+                                "--simulation",
+                                help="Create new simulation",
+                                action="store_true"
                             )
 
         return parser

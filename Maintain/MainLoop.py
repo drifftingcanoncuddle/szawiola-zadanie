@@ -1,10 +1,11 @@
+from Arithmetic.DrawVelocity import DrawVelocity
 from Maintain.InputParser import InputParser
-from Arithmetic.Microstates import  Microstates
-from Arithmetic.Entropy import Entropy
-from Arithmetic.EntropyPrinter import EntropyPrinter
-from Arithmetic.THProb import THProb
+from Arithmetic.DrawEntropy import Entropy
+from Arithmetic.DrawTHProb import THProb
 from Maintain.ConfigManipulator import ConfigManipulator
-from Maintain.Draw import Draw
+from Arithmetic.DrawVX import DrawVX
+from simulation.Simulator import Simulator
+
 
 class MainLoop:
     def __init__(self, argv):
@@ -19,14 +20,6 @@ class MainLoop:
                                     self.arguments.output_file)
         """
 
-        if len(self.arguments.output_file) > 0:
-            with open(self.arguments.output_file, "w") as file:
-                file.write("")
-
-        if self.arguments.sim_time is not None:
-            ConfigManipulator().set("time",
-                                    self.arguments.sim_time)
-
         if self.arguments.init_state_file is not None:
             ConfigManipulator().set("init_state_file",
                                     self.arguments.init_state_file)
@@ -34,21 +27,20 @@ class MainLoop:
         if self.arguments.recreate:
             ConfigManipulator().recreate()
 
-        if self.arguments.microstates:
-            self.show(Microstates().evaluate())
-
         if self.arguments.thprob:
-            self.show(THProb().evaluate())
+            THProb().evaluate()
 
         if self.arguments.entropy:
-            self.show(Entropy().evaluate())
+            Entropy().evaluate()
 
-        if self.arguments.chart_location is not None:
-            EntropyPrinter(self.arguments.chart_location)\
-                .evaluate()
+        if self.arguments.velocity:
+            DrawVelocity().eveluate()
 
-        if self.arguments.animation_file is not None:
-            Draw(self.arguments.animation_file).draw()
+        if self.arguments.positions:
+            DrawVX().draw()
+
+        if self.arguments.simulation:
+            Simulator().dump()
 
     def show(self, data):
         print(data)

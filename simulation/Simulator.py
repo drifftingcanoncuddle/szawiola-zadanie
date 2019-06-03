@@ -1,3 +1,6 @@
+import pickle
+
+from simulation.Initiator import Initiator
 from simulation.Particle import Particle
 from simulation.SimFrame import SimFrame
 from Maintain.ConfigManipulator import ConfigFields
@@ -10,7 +13,6 @@ from typing import *
 import copy
 import math
 
-frames_count = 0
 
 class Simulator:
     def __init__(self):
@@ -20,6 +22,21 @@ class Simulator:
         self.maximal_distance_as_collision = float(ConfigManipulator().read(ConfigFields.maximalDistanceAsCollision))
         self.maximal_timedelta_as_colliding = float(ConfigManipulator().read(ConfigFields.maximalTimeDeltaAsColliding))
         self.particle_size = float(ConfigManipulator().read(ConfigFields.particleSize))
+        self.time = int(ConfigManipulator().read(ConfigFields.time))
+
+    def dump(self):
+        frames_count = 0
+
+        states = list()
+        states.append(Initiator().create())
+
+        while frames_count < self.time:
+            frames_count += 1
+            f = copy.deepcopy(states[-1])
+            states.append(self.simulate(f))
+
+        with open("simulation.sim", "wb") as file:
+            pickle.dump(states, file)
 
     def simulate(self, frame: SimFrame) -> SimFrame:
 
