@@ -7,6 +7,6 @@ Sposob uzycia:
 W przypadku uszkodzenia pliku `config.ini` mozna przywrocic go do stanu poczatkowego uzywajac flagi `-r`
 W przypadku dalszych problemow mozna uzyc flagi `-h`, aby zobaczyc pomoc
 
-```bash
-python3 main.py [-h | -s | -t | -e | -f | -p | -v]
+``` bash
+python3 main.py [-h | -s | -t | -e | -v | -p | -f]
 ```
