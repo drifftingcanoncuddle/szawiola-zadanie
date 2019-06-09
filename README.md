@@ -1,7 +1,7 @@
 # Symulacja rozprezania gazu doskonalego
 Sposob uzycia:
 1. Ustaw wlasciwosci symulacji w pliku `config.ini`
---1. Alternatywnie ustaw plik zawierajacy dane o czasteczkach
+⋅⋅1. Alternatywnie ustaw plik zawierajacy dane o czasteczkach
 2. Uruchom generacje symulacji (flaga `-s`)
 3. Uruchom generacje odpowiedniej animacji / wykresu (flagi `-etpv`)
 
