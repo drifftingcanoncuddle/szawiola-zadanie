@@ -13,7 +13,7 @@ W przypadku dalszych problemow mozna uzyc flagi `-h`, aby zobaczyc pomoc
 python3 main.py [-h | -s | -t | -e | -v | -p | -f]
 ```
 
-## Wymogi pliku z pkt. 1
+## Wymogi pliku z danymi
 Plik powinien posiadać rosrzerzenie `.csv` i w jednej linijce powinien posiadac dane jednej czasteczki, ktore powinny byc sformatowane w nastepujacy sposob:
 `polozenie_x, polozenie_y, predkosc_x, predkosc_y`
 Program nie jest czuly na wystepowanie spacji pomiedyz wartosciami a przecinkiem
