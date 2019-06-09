@@ -1,14 +1,21 @@
-from PyQt5 import QtGui
-from PyQt5 import QtWidgets
+
 import argparse
 
 
 class InputParser:
+    """
+    Used to parse user input
+    """
     def __init__(self, argv):
         self.argv = argv
         self.parser = self.create_parser()
 
     def create_parser(self) -> argparse.ArgumentParser:
+        """
+        Create and configure argument parser object
+        :return: ConfigParser
+        """
+
         description = "Program created as assignment for Fizyka dla Informatykow. \n" \
                       "It's main task is to evaluate entropy and create proper animation" \
                       "for it."
@@ -58,6 +65,10 @@ class InputParser:
         return parser
 
     def get_arguments(self) -> argparse.Namespace:
+        """
+        Function called from outside, to get namespace object as representation of user choices
+        :return:
+        """
         return self.parser.parse_args(self.argv)
 
 

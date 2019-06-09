@@ -1,1 +1,1 @@
-/usr/lib/python3.6/types.py
+/home/piotr/.pyenv/versions/3.6.8/lib/python3.6/types.py

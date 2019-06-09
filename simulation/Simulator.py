@@ -15,6 +15,10 @@ import math
 
 
 class Simulator:
+    """
+    Simulation engine.
+    All scripts generate list of SimFrames, and pickle it to file -> simulation.sim
+    """
     def __init__(self):
         self.time_delta = float(ConfigManipulator().read(ConfigFields.timeDelta))
         self.size_x = float(ConfigManipulator().read(ConfigFields.size))
@@ -25,20 +29,37 @@ class Simulator:
         self.time = int(ConfigManipulator().read(ConfigFields.time))
 
     def dump(self):
+        """
+        Conduct simulation and save it to file
+        :return: nth
+        """
         frames_count = 0
 
         states = list()
         states.append(Initiator().create())
 
         while frames_count < self.time:
+            print("Simulating frame: ", frames_count)
             frames_count += 1
+            # we need to make deep copy before we can make next simulaiton
+            # otherwise simulation tries to simulate itself
+            # python quirk
             f = copy.deepcopy(states[-1])
-            states.append(self.simulate(f))
+            new_state = self.simulate(f)
+            states.append(new_state)
 
+        # pickle
         with open("simulation.sim", "wb") as file:
             pickle.dump(states, file)
 
     def simulate(self, frame: SimFrame) -> SimFrame:
+
+        """
+        funciton takes one simframe and simulate all changes in world during delta_time
+        delta_time is described in config
+        :param frame: frame to simulate
+        :return: new frame after proceeding some time
+        """
 
         print("-" * 10)
         print("Rendering frame")
@@ -82,6 +103,8 @@ class Simulator:
         return SimFrame(particles)
 
 
+    # set of lovely overloaded functions for calculating distance between two objects
+    # all of them use Pythagoras theorem
 
     def distance(self, particle_1: Particle, particle_2: Particle) -> float:
         particle_1_x = particle_1.get_position()[0]
@@ -144,6 +167,12 @@ class Simulator:
         return math.sqrt(x_difference ** 2 + y_difference ** 2)
 
     def move(self, particle: Particle, time: float) -> Particle:
+        """
+        Function moves particle, based on distance which it can pass during given time
+        :param particle: particle to move
+        :param time: time elapsing
+        :return: new, moved particle
+        """
         particle_x = particle.get_position()[0]
         particle_y = particle.get_position()[1]
 
@@ -160,6 +189,48 @@ class Simulator:
                         particle_vx, particle_vy)
 
     def collide_with_particle(self, particle_1: Particle, particle_2: Particle) -> (Particle, Particle):
+        """
+        Function collide two particle which each other.
+
+        We never consider collision for 0 degree angle, even if it happens (?) - rounding errors -
+        so we always add some small value, for case this situation can occur, and then we get some
+        small angle approaching 0
+
+        Afterwards we calculate rotation between basic XY coord system and collision system
+        Transform speed components to match new coord system
+
+        Make collision
+
+        Transform collision system to basic XY system
+
+        And tricky part :)
+        There are situations in which two particles are considered as colliding when distance
+        between their centers are smaller than sum of their radius - there are clipping each other.
+        In this situation engine in next simulation, will try to instantly collide each other so
+        we finish up with infinity loop of collision. It seems like two or more particles get
+        glued and are shivering.
+        So to avoid situation like this we need to fix their positions so sum of their radius are
+        smaller than distance between their centers, that is called fixing
+
+        Also if particles are close enough to wall, collisions witch each other are disabled
+
+        :param particle_1:
+        :param particle_2:
+        :return: particles after collision
+        """
+
+        if particle_1.get_position()[0] > self.size_x - self.particle_size * 1.5 \
+                or particle_1.get_position()[0] < self.particle_size  \
+                or particle_1.get_position()[1] > self.size_y - self.particle_size \
+                or particle_1.get_position()[1] < self.particle_size :
+            return particle_1, particle_2
+
+        if particle_2.get_position()[0] > self.size_x - self.particle_size * 1.5 \
+                or particle_2.get_position()[0] < self.particle_size  \
+                or particle_2.get_position()[1] > self.size_y - self.particle_size \
+                or particle_2.get_position()[1] < self.particle_size:
+            return particle_1, particle_2
+
         x_diff = particle_1.get_position()[0] - particle_2.get_position()[0]
         y_diff = particle_1.get_position()[1] - particle_2.get_position()[1]
 
@@ -222,6 +293,13 @@ class Simulator:
 
 
     def collide_with_wall(self, particle, wall):
+        """
+        Calculate collision with wall.
+
+        :param particle: particle to collide
+        :param wall: wall name to collide
+        :return: new particle after collision
+        """
         if wall == "T":
             return Particle(particle.get_position()[0], self.size_x - self.particle_size / 2,
                             particle.get_velocity()[0], -1 * particle.get_velocity()[1])
@@ -236,6 +314,12 @@ class Simulator:
                             particle.get_velocity()[0] * -1, particle.get_velocity()[1])
 
     def get_trajectory(self, particle: Particle) -> (float, float):
+        """
+        As we takes, that particle moves along straight line we cen evaluate
+        a and b components of line equation
+        :param particle: particle wich trajectory we like to know
+        :return: a and b tuple
+        """
         particle_vx = particle.get_velocity()[0]
         particle_vy = particle.get_velocity()[1]
 
@@ -243,7 +327,7 @@ class Simulator:
         particle_y = particle.get_position()[1]
 
         if particle_vx == 0:
-            a = 1
+            a = 10 ** 20
         else:
             a = particle_vy / particle_vx
 
@@ -252,6 +336,24 @@ class Simulator:
         return a, b
 
     def wall_collision(self, particle: Particle) -> str:
+        """
+        Detect if particle is colliding with wall
+        We consider wall collision only if distance between wall and particle is lesser than
+        half of radius of particle.
+
+        So if collision is detected, engine instantly moves particle to so distance between particle
+        and wall is greater than half of radius and negate proper component of speed
+
+        Letting particle clip with the wall is necessary, other wise engine could detects new collision
+        right after previous collision, as particle potentially cannot leave collision zone in time,
+        for example because it has insufficient component speed.
+
+        So letting for clip, and some small teleportaions provide us zone,
+         which could be passed in only one direction, towards wall, and leaved just after collision
+
+        :param particle: particle to collide
+        :return: None if there is no collision, otherwise wall to collide
+        """
         particle_x = particle.get_position()[0]
         particle_y = particle.get_position()[1]
 

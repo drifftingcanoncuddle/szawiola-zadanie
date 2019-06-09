@@ -2,26 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b8b576-cd76-4f03-b0af-d9dd012c74e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/fizyka-szawiola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fizyka-szawiola.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arithmetic/Entropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawEntropy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arithmetic/EntropyPrinter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arithmetic/Microstates.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawVelocity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arithmetic/THProb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawTHProb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maintain/Draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawVX.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arithmetic/DrawEntropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawEntropy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arithmetic/DrawTHProb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawTHProb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arithmetic/DrawVX.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawVX.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arithmetic/DrawVelocity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic/DrawVelocity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maintain/ConfigManipulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maintain/ConfigManipulator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Maintain/InputParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maintain/InputParser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Maintain/MainLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maintain/MainLoop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/animatio.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/animation.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/animation2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maintain/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VXAnimation.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/natalia/docs.aux" beforeDir="false" afterPath="$PROJECT_DIR$/docs/natalia/docs.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/natalia/docs.log" beforeDir="false" afterPath="$PROJECT_DIR$/docs/natalia/docs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/natalia/docs.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/natalia/docs.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/natalia/docs.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/docs/natalia/docs.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/natalia/docs.tex" beforeDir="false" afterPath="$PROJECT_DIR$/docs/natalia/docs.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/natalia/docs.toc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/natalia/docs.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/easy_install-3.6" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/easy_install-3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/f2py" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/f2py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/f2py3" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/f2py3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/f2py3.6" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/f2py3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pip3.6" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pip3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pylupdate5" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pylupdate5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pyrcc5" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pyrcc5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python-config" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/python-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python3.6" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/python3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/pyuic5" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/pyuic5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/wheel" beforeDir="false" afterPath="$PROJECT_DIR$/env/bin/wheel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/include/python3.6m" beforeDir="false" afterPath="$PROJECT_DIR$/env/include/python3.6m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/__future__.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/__future__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/_bootlocale.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/_bootlocale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/_collections_abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/_collections_abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/_dummy_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/_dummy_thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/_weakrefset.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/_weakrefset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/bisect.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/bisect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/codecs.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/codecs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/collections" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/collections" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/config-3.6m-x86_64-linux-gnu" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/config-3.6m-x86_64-linux-gnu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/copyreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/copyreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/encodings" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/encodings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/fnmatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/fnmatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/functools.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/functools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/genericpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/genericpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/hashlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/hashlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/heapq.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/heapq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/hmac.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/hmac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/imp.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/imp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/importlib" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/importlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/keyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/keyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/lib-dynload" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/lib-dynload" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/linecache.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/linecache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/locale.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/locale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/ntpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/ntpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/orig-prefix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/orig-prefix.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/posixpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/posixpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/random.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/re.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/reprlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/reprlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/rlcompleter.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/rlcompleter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/shutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/shutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/PyQt5-5.12.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/PyQt5-5.12.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/numpy-1.16.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/numpy-1.16.3.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pip-19.1.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pip-19.1.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources-0.0.0.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/extern/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/extern/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/py31compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/pkg_resources/py31compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/setuptools-41.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/setuptools-41.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/site-packages/wheel-0.33.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/site-packages/wheel-0.33.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/sre_compile.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/sre_compile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/sre_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/sre_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/sre_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/sre_parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/stat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/struct.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/struct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/tarfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/tarfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/tempfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/tempfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/token.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/tokenize.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/tokenize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/warnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/warnings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/lib/python3.6/weakref.py" beforeDir="false" afterPath="$PROJECT_DIR$/env/lib/python3.6/weakref.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/certifi-2018.1.18-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/distlib-0.2.6-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/distro-1.0.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/html5lib-0.999999999-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/idna-2.6-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/idna-2.6-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/packaging-17.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/pip-9.0.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/progress-1.2-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/progress-1.2-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/requests-2.18.4-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/env/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/six-1.11.0-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/urllib3-1.22-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/webencodings-0.5-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/share/python-wheels/wheel-0.30.0-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/particles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/particles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation.sim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation/Initiator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/Initiator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation/Particle.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/Particle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulation/SimFrame.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/SimFrame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulation/Simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulation/Simulator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,52 +140,45 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fizyka_szawiola$some.coverage" NAME="some Coverage Results" MODIFIED="1558467365575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fizyka_szawiola$main.coverage" NAME="some Coverage Results" MODIFIED="1558385661582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fizyka_szawiola$Simulator.coverage" NAME="main Coverage Results" MODIFIED="1559564539520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48349634">
+    <splitter split-orientation="horizontal" split-proportion="0.46210268">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/simulation/Simulator.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="393">
+                  <caret line="227" column="76" selection-start-line="227" selection-start-column="76" selection-end-line="227" selection-end-column="76" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Maintain/InputParser.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config.ini">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="9" selection-start-column="9" selection-end-column="9" />
+                <state relative-caret-position="180">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Arithmetic/DrawVX.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Arithmetic/DrawVelocity.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="453">
-                  <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+                <state relative-caret-position="330">
+                  <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                  <folding>
-                    <element signature="e#0#38#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Maintain/MainLoop.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="475">
-                  <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#0#48#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -89,76 +189,31 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/simulation/SimFrame.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/particles.csv">
-              <provider selected="true" editor-type-id="csv-text-editor">
-                <state>
-                  <caret column="3" selection-start-column="3" selection-end-column="3" />
-                </state>
-              </provider>
               <provider editor-type-id="csv-table-editor">
                 <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
               </provider>
+              <provider selected="true" editor-type-id="csv-text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/simulation/Particle.py">
+            <entry file="file://$PROJECT_DIR$/Maintain/MainLoop.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="105">
+                  <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config.ini">
+            <entry file="file://$PROJECT_DIR$/Arithmetic/DrawVX.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Maintain/ConfigManipulator.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Maintain/InputParser.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="780">
-                  <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-                  <folding>
-                    <element signature="e#0#23#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/simulation/Simulator.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="32" selection-start-line="32" selection-end-line="32" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="315">
+                  <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -216,30 +271,32 @@
         <option value="$PROJECT_DIR$/Arithmetic/THProb.py" />
         <option value="$PROJECT_DIR$/Maintain/ArgParser.py" />
         <option value="$PROJECT_DIR$/Arithmetic/EntropyPrinter.py" />
-        <option value="$PROJECT_DIR$/simulation/SimFrame.py" />
-        <option value="$PROJECT_DIR$/particles.csv" />
-        <option value="$PROJECT_DIR$/Maintain/Exceptions.py" />
-        <option value="$PROJECT_DIR$/Maintain/ConfigManipulator.py" />
-        <option value="$PROJECT_DIR$/simulation/Particle.py" />
-        <option value="$PROJECT_DIR$/simulation/Initiator.py" />
-        <option value="$PROJECT_DIR$/Maintain/InputParser.py" />
-        <option value="$PROJECT_DIR$/Maintain/Draw.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/Maintain/DrawVX.py" />
-        <option value="$PROJECT_DIR$/simulation/Simulator.py" />
         <option value="$PROJECT_DIR$/Arithmetic/Entropy.py" />
         <option value="$PROJECT_DIR$/Arithmetic/Microstates.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Maintain/Exceptions.py" />
+        <option value="$PROJECT_DIR$/Maintain/Draw.py" />
+        <option value="$PROJECT_DIR$/particles.csv" />
+        <option value="$PROJECT_DIR$/simulation/Initiator.py" />
+        <option value="$PROJECT_DIR$/simulation/Particle.py" />
+        <option value="$PROJECT_DIR$/simulation/SimFrame.py" />
+        <option value="$PROJECT_DIR$/Maintain/ConfigManipulator.py" />
+        <option value="$PROJECT_DIR$/Maintain/InputParser.py" />
         <option value="$PROJECT_DIR$/Maintain/MainLoop.py" />
-        <option value="$PROJECT_DIR$/Arithmetic/DrawVelocity.py" />
+        <option value="$PROJECT_DIR$/Arithmetic/DrawEntropy.py" />
+        <option value="$PROJECT_DIR$/Arithmetic/DrawTHProb.py" />
         <option value="$PROJECT_DIR$/Arithmetic/DrawVX.py" />
+        <option value="$PROJECT_DIR$/Arithmetic/DrawVelocity.py" />
         <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/simulation/Simulator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="31" />
-    <option name="width" value="1260" />
-    <option name="height" value="715" />
+    <option name="x" value="1280" />
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1173" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -247,42 +304,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="fizyka-szawiola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fizyka-szawiola" type="462c0819:PsiDirectoryNode" />
+              <item name="szawiola-zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szawiola-zadanie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fizyka-szawiola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fizyka-szawiola" type="462c0819:PsiDirectoryNode" />
+              <item name="szawiola-zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szawiola-zadanie" type="462c0819:PsiDirectoryNode" />
               <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fizyka-szawiola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fizyka-szawiola" type="462c0819:PsiDirectoryNode" />
+              <item name="szawiola-zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szawiola-zadanie" type="462c0819:PsiDirectoryNode" />
               <item name="Maintain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szawiola-zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szawiola-zadanie" type="462c0819:PsiDirectoryNode" />
+              <item name="simulation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Arithmetic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../plecaki" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Arithmetic" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,7 +368,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="-s" />
+      <option name="PARAMETERS" value="-t" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -337,51 +394,57 @@
       <workItem from="1559379739207" duration="6983000" />
       <workItem from="1559391532911" duration="8489000" />
       <workItem from="1559402006965" duration="6288000" />
-      <workItem from="1559457810609" duration="24025000" />
-      <workItem from="1559492792241" duration="188000" />
-      <workItem from="1559493004788" duration="3262000" />
-      <workItem from="1559503386831" duration="3602000" />
+      <workItem from="1559457810609" duration="24342000" />
+      <workItem from="1559935632125" duration="6984000" />
+      <workItem from="1559982999619" duration="1764000" />
+      <workItem from="1559985126830" duration="13730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87242000" />
+    <option name="totallyTimeSpent" value="98364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1680" height="954" extended-state="6" />
+    <frame x="1350" y="27" width="1850" height="1173" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" x="1680" y="0" width="366" height="1078" id="Project" order="0" type="FLOATING" visible="true" weight="0.15525672" />
+      <window_info content_ui="combo" x="899" y="13" width="381" height="1008" id="Project" order="0" type="FLOATING" visible="true" weight="0.16992664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32928312" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32883316" />
       <window_info anchor="bottom" x="1680" y="721" width="1912" height="356" id="Run" order="2" type="FLOATING" weight="0.44106925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.399757" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39922854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" x="2046" y="673" width="1553" height="393" id="Terminal" order="6" type="FLOATING" visible="true" weight="0.32928312" />
+      <window_info active="true" anchor="bottom" x="0" y="702" width="898" height="324" id="Terminal" order="6" type="FLOATING" visible="true" weight="0.32928312" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.32928312" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.036452007" />
+      <window_info anchor="bottom" id="Python Console" order="13" visible="true" weight="0.3114754" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3294621" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3292683" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/szawiola_zadanie$main.coverage" NAME="main Coverage Results" MODIFIED="1559987367596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Arithmetic/THProb.py" />
     <entry file="file://$PROJECT_DIR$/Maintain/some.py" />
     <entry file="file://$PROJECT_DIR$/config.conf" />
+    <entry file="file://$PROJECT_DIR$/Arithmetic/Entropy.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/matplotlib/axes/_base.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/matplotlib/axis.py" />
+    <entry file="file://$PROJECT_DIR$/Arithmetic/Microstates.py" />
     <entry file="file://$PROJECT_DIR$/abc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -392,136 +455,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/particles.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+    <entry file="file://$PROJECT_DIR$/Maintain/Draw.py" />
+    <entry file="file://$PROJECT_DIR$/Arithmetic/EntropyPrinter.py" />
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="4289" selection-start-line="4289" selection-end-line="4289" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulation/Particle.py">
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maintain/Exceptions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulation/SimFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="198">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maintain/config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maintain/Exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulation/Initiator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        <state relative-caret-position="1650">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulation/Simulator.py">
+    <entry file="file://$PROJECT_DIR$/particles.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation/Particle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="1185">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/tokenize.py">
+    <entry file="file://$PROJECT_DIR$/simulation/SimFrame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arithmetic/EntropyPrinter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arithmetic/DrawVelocity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arithmetic/DrawTHProb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arithmetic/DrawEntropy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maintain/MainLoop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Maintain/ConfigManipulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="1380">
+          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Maintain/InputParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maintain/MainLoop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arithmetic/DrawEntropy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arithmetic/DrawTHProb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Arithmetic/DrawVX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="315">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arithmetic/DrawVelocity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -531,7 +586,14 @@
     <entry file="file://$PROJECT_DIR$/config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation/Simulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="227" column="76" selection-start-line="227" selection-start-column="76" selection-end-line="227" selection-end-column="76" />
         </state>
       </provider>
     </entry>
