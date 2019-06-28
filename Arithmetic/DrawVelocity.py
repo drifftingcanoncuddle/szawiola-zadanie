@@ -77,7 +77,7 @@ class DrawVelocity:
 
         return self.scat,
 
-    def update(self):
+    def update(self, step):
         """
         Update animation
         :return:

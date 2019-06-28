@@ -1,4 +1,5 @@
 #!/home/piotr/Documents/python/szawiola-zadanie/env/bin/python3
+
 # -*- coding: utf-8 -*-
 import re
 import sys

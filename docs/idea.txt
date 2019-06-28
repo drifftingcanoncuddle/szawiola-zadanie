@@ -1,0 +1,18 @@
+Zadania
+	- Natalia - stworzenie obslugi polecen konsoli i interfejsu
+	  uzytkownika
+	- Filip - obrobka i przetworzenie danych powstalych w wyniku
+	  symulacji, w celu realizacji polecenia zawartego w zadaniu
+	- Piotr - stworzenie silnika symulacji, wraz z odpowiednimi
+	  strukturami do przechowywania danych
+
+Dane projektu
+	- jezyk: Python 3.6.8
+	- dodatkowe moduly:
+		- ConfigParser 3.7.4
+		- Matplotlib.pyplot 0.10.0
+		- Numpy 1.16.3
+	- licencja: CC BY-NC-SA
+
+Zaangazowanie:
+	- po rowno
